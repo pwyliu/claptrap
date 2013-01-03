@@ -1,3 +1,8 @@
+venv
+.env
+*.swp
+*.idea
+
 *.py[cod]
 
 # C extensions
