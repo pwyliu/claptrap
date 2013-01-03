@@ -33,7 +33,7 @@ def parse_tweet(tweet):
 
 def high_five(subject=None, body=None):
     return requests.post(
-        "https://api.mailgun.net/v2/claptrap.mailgun.org/messages",
+        "https://api.mailgun.net/v2/[YOURDOMAIN].mailgun.org/messages",
         auth=("api", MAILGUN_API_KEY),
         data={"from": SEND_FROM,
               "to": SEND_TO,
