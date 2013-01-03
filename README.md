@@ -1,4 +1,4 @@
-claptrap
+Claptrap
 ========
 
 Claptrap.py uses the Twitter streaming API to watch for Borderlands 2 SHiFT codes. When a code is detected Claptrap emails it to you using the Mailgun API for easy redemption. Now you can get that rad purple SMG with minimal effort and in a timely manner. High five!
