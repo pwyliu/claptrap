@@ -5,8 +5,8 @@ Claptrap.py uses the Twitter streaming API to watch for Borderlands 2 SHiFT code
 
 ## Requirements
 
-+Python 2.7
-+(Twitter API key)[https://dev.twitter.com/]
-+(Mailgun API key)[http://www.mailgun.com/]. If you don't want to use Mailgun, you can easily adapt this script to use SMTP and, say, Gmail. But that would be silly because Mailgun is cool and awesome.
-+(Requests)[https://github.com/kennethreitz/requests]
-+(Tweepy)[https://github.com/tweepy/tweepy]
++ Python 2.7
++ [Twitter API key](https://dev.twitter.com/)
++ [Mailgun API key](http://www.mailgun.com/)
++ [Requests](https://github.com/kennethreitz/requests)
++ [Tweepy](https://github.com/tweepy/tweepy)
