@@ -52,13 +52,13 @@ class TW_Listner(tweepy.StreamListener):
                     +'https://twitter.com/'
                     +tweet.user.screen_name
                     +'/status/'+tweet.id_str)
-            for http_post in range(2):
+            for http_post in range(3):
                 try:
                     high_five(subject,body)
                 except (requests.ConnectionError, requests.HTTPError,
                         requests.RequestException):
                     time.sleep(30)
-                    high_five(subject,body)
+                    pass
                 else:
                     break
             else:
